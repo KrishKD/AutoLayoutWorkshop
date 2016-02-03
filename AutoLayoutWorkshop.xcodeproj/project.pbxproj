@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B49902F1C61C5CC003379AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B49902E1C61C5CC003379AE /* Main.storyboard */; };
 		8208DA951B53BD5C00FB80F0 /* ChoosePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8208DA941B53BD5C00FB80F0 /* ChoosePhotoViewController.m */; };
 		82E34EB91B47ED3700BD8E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E34EB81B47ED3700BD8E9A /* main.m */; };
 		82E34EBC1B47ED3700BD8E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E34EBB1B47ED3700BD8E9A /* AppDelegate.m */; };
 		82E34EBF1B47ED3700BD8E9A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E34EBE1B47ED3700BD8E9A /* ProfileViewController.m */; };
-		82E34EC21B47ED3700BD8E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E34EC01B47ED3700BD8E9A /* Main.storyboard */; };
 		82E34EC41B47ED3700BD8E9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E34EC31B47ED3700BD8E9A /* Images.xcassets */; };
 		82E34EC71B47ED3700BD8E9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E34EC51B47ED3700BD8E9A /* LaunchScreen.xib */; };
 		82E34ED31B47ED3700BD8E9A /* AutoLayoutWorkshopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E34ED21B47ED3700BD8E9A /* AutoLayoutWorkshopTests.m */; };
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B49902E1C61C5CC003379AE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8208DA931B53BD5C00FB80F0 /* ChoosePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePhotoViewController.h; sourceTree = "<group>"; };
 		8208DA941B53BD5C00FB80F0 /* ChoosePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePhotoViewController.m; sourceTree = "<group>"; };
 		82E34EB31B47ED3700BD8E9A /* AutoLayoutWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +39,6 @@
 		82E34EBB1B47ED3700BD8E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82E34EBD1B47ED3700BD8E9A /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		82E34EBE1B47ED3700BD8E9A /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		82E34EC11B47ED3700BD8E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82E34EC31B47ED3700BD8E9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		82E34EC61B47ED3700BD8E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		82E34ECC1B47ED3700BD8E9A /* AutoLayoutWorkshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutWorkshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +95,9 @@
 				8208DA941B53BD5C00FB80F0 /* ChoosePhotoViewController.m */,
 				82E34EBD1B47ED3700BD8E9A /* ProfileViewController.h */,
 				82E34EBE1B47ED3700BD8E9A /* ProfileViewController.m */,
-				82E34EC01B47ED3700BD8E9A /* Main.storyboard */,
 				82E34EC31B47ED3700BD8E9A /* Images.xcassets */,
 				82E34EC51B47ED3700BD8E9A /* LaunchScreen.xib */,
+				6B49902E1C61C5CC003379AE /* Main.storyboard */,
 				82E34EB61B47ED3700BD8E9A /* Supporting Files */,
 			);
 			path = AutoLayoutWorkshop;
@@ -209,7 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82E34EC21B47ED3700BD8E9A /* Main.storyboard in Resources */,
+				6B49902F1C61C5CC003379AE /* Main.storyboard in Resources */,
 				82E34EC71B47ED3700BD8E9A /* LaunchScreen.xib in Resources */,
 				82E34EC41B47ED3700BD8E9A /* Images.xcassets in Resources */,
 			);
@@ -256,14 +256,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82E34EC01B47ED3700BD8E9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82E34EC11B47ED3700BD8E9A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82E34EC51B47ED3700BD8E9A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
